@@ -16,8 +16,6 @@
 "regionalize": true,
 "excludeGroups": "Español",
 "excludeChannels": false,
-"uniqueClientid": true,
-"randomClientid": true,
 "refresh": 3600,
 "xTvgUrl": false
 }
