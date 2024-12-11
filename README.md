@@ -13,7 +13,7 @@ configuration is read from config.json in the current working directory
 #### the output directory
 edit the config.json file to provide an output directory for the m3u8 and xml file
 #### the client ID
-edit the config.json file and provide a new (unique) UUID
+edit the config.json file and provide a new (unique) UUID. If not provided, a random UUID will be generated automatically.
 #### the regional mapping
 edit the config.json file and provide a region key and a geo located IP address to automatically generate an m3u8 and xml file for that region
 
