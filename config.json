@@ -1,19 +1,23 @@
 {
-	"outdir": ".",
-	"clientID": "00000000-0000-0000-0000-000000000000",
-	"mapping": {
-		"us": "45.50.96.71"
-	},
-	"all": false,
-	"group": "genre",
-	"regionalize": false,
-	"excludeGroups": false,
-	"excludeChannels": false,
-	"uniqueClientid": false,
-	"randomClientid": false,
-	"refresh": 0,
-	"xTvgUrl": false,
-	"ondemand": false,
-	"vlcopts": false,
-	"pipeopts": false
+"outdir": "/media",
+"clientID": "00000000-0000-0000-0000-000000000000",
+"mapping": {
+  "es": "102.177.191.1",
+  "us": "45.50.96.71",
+  "uk": "109.74.192.2",
+  "fr": "102.129.65.1",
+  "de": "101.33.10.1",
+  "it": "102.165.10.1",
+  "br": "103.14.27.1",
+  "ca": "102.129.158.1"
+},
+"all": false,
+"group": "genre",
+"regionalize": true,
+"excludeGroups": "Español",
+"excludeChannels": false,
+"uniqueClientid": true,
+"randomClientid": true,
+"refresh": 3600,
+"xTvgUrl": false
 }
